@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+
+/* ::placeholder{
+  color: white;
+  font-family: 'Hind', sans-serif;
+  font-size: 0.8rem;
+} */
+
+.trape{
+  width: 30%;
+	min-height: 100vh;
+	transform: skew(-14deg);
+	background: rgb(5, 12, 20);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box-design{
+  width: 30%;display: flex;justify-content: center;align-items: center;height: 100vh;padding-left: 8rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sign-in{
+  color: rgb(255, 255, 255); font-size: 2.4rem;font-family: 'Hind', sans-serif;font-weight: bold;margin: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
+  display: flex;
+  
+}
+
+.formy{
+  width: 70%;
+}
+
+input{
+  background-color: rgba(0, 0, 0, 0.147);
+
+  padding: 1rem;
+  border: 2px solid #B8336A;
+  border-top: 2px;
+  margin: 1.6rem;
+color: white;
+}
+
+button{
+  font-family: 'Hind', sans-serif;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 20px;
+  border: 2px solid #B8336A;
+  background-color: black;
+  color: white;
+  margin: 1.2rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+form{
   display: flex;
   flex-direction: column;
+  width: 30%;
+}
+
+.formy{
+  display: flex;
+  width: 70%;
+  height : 100vh;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

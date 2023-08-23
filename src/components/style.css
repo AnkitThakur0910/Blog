@@ -1,0 +1,160 @@
+.trape{
+    width: 30%;
+      height:100%;
+      transform: skew(-14deg);
+      background: #b8336ab2;
+      position: absolute;
+      
+  }
+
+  .blog{
+    display: flex;
+        
+    flex-wrap: wrap;
+   padding: 2%;
+   align-items: flex-start;
+   justify-content: center;
+   
+
+  }
+  
+  .blogs{
+    display: block;
+    box-sizing: border-box;
+  
+    width: 30%;
+    padding: 1rem;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    position: relative;
+    transition: all ease 1s;
+  }
+
+  .blogs img{
+    width: 100%;
+  }
+
+  .elev:hover{
+    transform: scalex(1.1) scaleY(1.1);
+   
+    
+  }
+  .trap{
+    width: 30%;
+    min-height: 100vh;
+    transform: skew(-14deg);
+    background: #1f223451;
+    position: absolute;
+
+  }
+  
+  .write-blog{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .select-image{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width : 60%;
+    height: auto;
+    position: relative;
+    z-index: 3;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: none;
+    
+  }
+
+  .select-image img{
+    width: 100%;
+    height: auto;
+    filter: brightness(30%);
+    position: absolute;
+    
+  }
+
+  .select-image span,label{
+    z-index: 5;
+  }
+
+  .write-title{
+    display: flex;
+    width: 60%;
+    margin-bottom: 3rem;
+  }
+
+  .write-title input{
+    width : 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    position: relative;
+    z-index: 4;
+    background-color: black;
+    border: 2px solid white;
+    caret-color: white;
+    color : white
+  }
+
+  ::placeholder{
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Hind', sans-serif;
+  }
+
+  .write-content{
+      display: flex;
+      width : 60%;
+  }
+
+  .write-content textarea{
+    width : 100%;
+    border-radius: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    z-index: 4;
+    background-color: black;
+    border: 2px solid white;
+    height : 400px;
+    caret-color: white;
+    color : white;
+    font-size: 1rem;
+  }
+
+  .submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 10%;
+  }
+
+  .submit button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: none;
+    background-color: #B8336A;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    font-size: 1.4rem;
+   
+    color : white;
+    text-align: center;
+  }
